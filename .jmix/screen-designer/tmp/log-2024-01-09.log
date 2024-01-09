@@ -1,0 +1,183 @@
+2024-01-09 11:09:50 LOG INFO: Starting dev-mode updaters in folder (C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer)
+2024-01-09 11:09:50 LOG INFO: Added 19 default dependencies to main package.json
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskCopyThemes
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskGeneratePackageJson
+2024-01-09 11:09:50 LOG INFO: Added 19 default dependencies to main package.json
+2024-01-09 11:09:50 LOG INFO: writing file C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer\package.json.
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskGenerateIndexHtml
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskGenerateIndexTs
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskGenerateViteDevMode
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskGenerateTsConfig
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskGenerateTsDefinitions
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskGenerateBootstrap
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskGenerateFeatureFlags
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskInstallFrontendBuildPlugins
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskUpdatePackages
+2024-01-09 11:09:50 LOG INFO: writing file C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer\package.json.
+2024-01-09 11:09:50 LOG INFO: Executing task: TaskRunNpmInstall
+2024-01-09 11:09:50 LOG INFO: Running `pnpm install` to resolve and optionally download frontend dependencies. This may take a moment, please stand by...
+2024-01-09 11:09:50 LOG INFO: Using node 18.14.1 located at C:\Users\thean\.vaadin\node\node.exe
+2024-01-09 11:09:51 LOG INFO: Using npm 9.3.1 located at C:\Users\thean\.vaadin\node\node.exe
+2024-01-09 11:09:55 LOG INFO: Generated pnpm configuration: C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer\.npmrc
+2024-01-09 11:09:57 LOG INFO: using 'C:\Users\thean\.vaadin\node\node.exe C:\Users\thean\.vaadin\node\node_modules\npm\bin\npx-cli.js --yes --quiet pnpm --shamefully-hoist=true --ignore-scripts install' for frontend package installation
+
+   ╭──────────────────────────────────────────────────────────────────╮
+   │                                                                  │
+   │                Update available! 8.12.1 → 8.14.0.                │
+   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v8.14.0   │
+   │                Run "pnpm add -g pnpm" to update.                 │
+   │                                                                  │
+   │      Follow @pnpmjs for updates: https://twitter.com/pnpmjs      │
+   │                                                                  │
+   ╰──────────────────────────────────────────────────────────────────╯
+
+ WARN  2 deprecated subdependencies found: rollup-plugin-terser@7.0.2, sourcemap-codec@1.4.8
+
+dependencies:
++ @polymer/polymer 3.5.1
++ @vaadin/accordion 24.0.8 (24.3.2 is available)
++ @vaadin/app-layout 24.0.8 (24.3.2 is available)
++ @vaadin/avatar 24.0.8 (24.3.2 is available)
++ @vaadin/avatar-group 24.0.8 (24.3.2 is available)
++ @vaadin/bundles 24.0.8 (24.3.2 is available)
++ @vaadin/button 24.0.8 (24.3.2 is available)
++ @vaadin/checkbox 24.0.8 (24.3.2 is available)
++ @vaadin/checkbox-group 24.0.8 (24.3.2 is available)
++ @vaadin/combo-box 24.0.8 (24.3.2 is available)
++ @vaadin/common-frontend 0.0.17 (0.0.19 is available)
++ @vaadin/component-base 24.0.8 (24.3.2 is available)
++ @vaadin/confirm-dialog 24.0.8 (24.3.2 is available)
++ @vaadin/context-menu 24.0.8 (24.3.2 is available)
++ @vaadin/custom-field 24.0.8 (24.3.2 is available)
++ @vaadin/date-picker 24.0.8 (24.3.2 is available)
++ @vaadin/date-time-picker 24.0.8 (24.3.2 is available)
++ @vaadin/details 24.0.8 (24.3.2 is available)
++ @vaadin/dialog 24.0.8 (24.3.2 is available)
++ @vaadin/email-field 24.0.8 (24.3.2 is available)
++ @vaadin/field-base 24.0.8 (24.3.2 is available)
++ @vaadin/field-highlighter 24.0.8 (24.3.2 is available)
++ @vaadin/form-layout 24.0.8 (24.3.2 is available)
++ @vaadin/grid 24.0.8 (24.3.2 is available)
++ @vaadin/horizontal-layout 24.0.8 (24.3.2 is available)
++ @vaadin/icon 24.0.8 (24.3.2 is available)
++ @vaadin/icons 24.0.8 (24.3.2 is available)
++ @vaadin/input-container 24.0.8 (24.3.2 is available)
++ @vaadin/integer-field 24.0.8 (24.3.2 is available)
++ @vaadin/item 24.0.8 (24.3.2 is available)
++ @vaadin/list-box 24.0.8 (24.3.2 is available)
++ @vaadin/lit-renderer 24.0.8 (24.3.2 is available)
++ @vaadin/login 24.0.8 (24.3.2 is available)
++ @vaadin/menu-bar 24.0.8 (24.3.2 is available)
++ @vaadin/message-input 24.0.8 (24.3.2 is available)
++ @vaadin/message-list 24.0.8 (24.3.2 is available)
++ @vaadin/multi-select-combo-box 24.0.8 (24.3.2 is available)
++ @vaadin/notification 24.0.8 (24.3.2 is available)
++ @vaadin/number-field 24.0.8 (24.3.2 is available)
++ @vaadin/overlay 24.0.8 (24.3.2 is available)
++ @vaadin/password-field 24.0.8 (24.3.2 is available)
++ @vaadin/polymer-legacy-adapter 24.0.8 (24.3.2 is available)
++ @vaadin/progress-bar 24.0.8 (24.3.2 is available)
++ @vaadin/radio-group 24.0.8 (24.3.2 is available)
++ @vaadin/router 1.7.5
++ @vaadin/scroller 24.0.8 (24.3.2 is available)
++ @vaadin/select 24.0.8 (24.3.2 is available)
++ @vaadin/split-layout 24.0.8 (24.3.2 is available)
++ @vaadin/tabs 24.0.8 (24.3.2 is available)
++ @vaadin/tabsheet 24.0.8 (24.3.2 is available)
++ @vaadin/text-area 24.0.8 (24.3.2 is available)
++ @vaadin/text-field 24.0.8 (24.3.2 is available)
++ @vaadin/time-picker 24.0.8 (24.3.2 is available)
++ @vaadin/tooltip 24.0.8 (24.3.2 is available)
++ @vaadin/upload 24.0.8 (24.3.2 is available)
++ @vaadin/vaadin-development-mode-detector 2.0.6
++ @vaadin/vaadin-lumo-styles 24.0.8 (24.3.2 is available)
++ @vaadin/vaadin-material-styles 24.0.8 (24.3.2 is available)
++ @vaadin/vaadin-themable-mixin 24.0.8 (24.3.2 is available)
++ @vaadin/vaadin-usage-statistics 2.1.2
++ @vaadin/vertical-layout 24.0.8 (24.3.2 is available)
++ @vaadin/virtual-list 24.0.8 (24.3.2 is available)
++ ace-builds 1.18.0 (1.32.2 is available)
++ construct-style-sheets-polyfill 3.1.0
++ date-fns 2.29.3 (3.0.6 is available)
++ lit 2.6.1 (3.1.0 is available)
+
+devDependencies:
++ @rollup/plugin-replace 5.0.2 (5.0.5 is available)
++ @rollup/pluginutils 5.0.2 (5.1.0 is available)
++ async 3.2.2 (3.2.5 is available)
++ glob 7.2.3 (10.3.10 is available)
++ mkdirp 1.0.4 (3.0.1 is available)
++ rollup-plugin-brotli 3.1.0
++ strip-css-comments 5.0.0
++ transform-ast 2.4.4
++ typescript 4.9.5 (5.3.3 is available)
++ vite 4.1.3 (5.0.10 is available)
++ vite-plugin-checker 0.5.5 (0.6.2 is available)
++ workbox-build 6.5.4 (7.0.0 is available)
++ workbox-core 6.5.4 (7.0.0 is available)
++ workbox-precaching 6.5.4 (7.0.0 is available)
+
+Done in 19.7s
+2024-01-09 11:10:18 LOG INFO: Frontend dependencies resolved successfully.
+
+> esbuild@0.16.17 postinstall C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer\node_modules\esbuild
+> node install.js
+
+
+> @vaadin/vaadin-usage-statistics@2.1.2 postinstall C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer\node_modules\@vaadin\vaadin-usage-statistics
+> node check.cjs
+
+
+    Vaadin collects development time usage statistics to improve this product. To opt-out, either run:
+    npm explore @vaadin/vaadin-usage-statistics -- npm run disable
+    to store disable statistics for the machine, or add
+    "vaadin": { "disableUsageStatistics": true }
+    to the project package.json and re-run npm install to disable statistics for the project.
+
+    For more details, see https://github.com/vaadin/vaadin-usage-statistics
+  
+2024-01-09 11:10:22 LOG INFO: Executing task: TaskCopyFrontendFiles
+2024-01-09 11:10:22 LOG INFO: Copying frontend resources from jar files ...
+2024-01-09 11:10:23 LOG INFO: Visited 2 resources. Took 150 ms.
+2024-01-09 11:10:23 LOG INFO: Executing task: TaskCopyLocalFrontendFiles
+2024-01-09 11:10:23 LOG INFO: Executing task: TaskUpdateSettingsFile
+2024-01-09 11:10:23 LOG INFO: Executing task: TaskUpdateVite
+2024-01-09 11:10:23 LOG INFO: Created vite configuration file: 'C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer\vite.config.ts'
+2024-01-09 11:10:23 LOG INFO: Executing task: TaskUpdateImports
+2024-01-09 11:10:23 LOG INFO: Executing task: TaskUpdateThemeImport
+2024-01-09 11:10:23 LOG INFO: Executing task: TaskCopyTemplateFiles
+2024-01-09 11:10:23 LOG INFO: Starting Vite
+2024-01-09 11:10:23 LOG INFO: Using node 18.14.1 located at C:\Users\thean\.vaadin\node\node.exe
+2024-01-09 11:10:23 LOG INFO: Using npm 9.3.1 located at C:\Users\thean\.vaadin\node\node.exe
+2024-01-09 11:10:24 LOG INFO: Starting Vite using: C:\Users\thean\.vaadin\node\node.exe C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer\node_modules\vite\bin\vite.js --config C:\Users\thean\IdeaProjects\untitled\.jmix\screen-designer\vite.config.ts --port 59240 --base /VAADIN/
+2024-01-09 11:10:24 LOG INFO: 
+------------------ Starting Frontend compilation. ------------------
+
+2024-01-09 11:10:24 LOG INFO: 
+C:\Users\thean\.vaadin\node\node.exe \ 
+    .\node_modules\vite\bin\vite.js --config \ 
+    .\vite.config.ts --port 59240 --base /VAADIN/ 
+
+2024-01-09 11:10:24 LOG INFO: Running Vite to compile frontend resources. This may take a moment, please stand by...
+2024-01-09 11:10:36 LOG INFO: 
+2024-01-09 11:10:36 LOG INFO:   VITE v4.1.3  ready in 12833 ms
+2024-01-09 11:10:36 LOG INFO: 
+----------------- Frontend compiled successfully. -----------------
+
+
+2024-01-09 11:10:36 LOG INFO: 
+2024-01-09 11:10:36 LOG INFO:   ➜  Local:   http://127.0.0.1:59240/VAADIN/
+2024-01-09 11:10:42 LOG INFO: 
+2024-01-09 11:10:42 LOG INFO: [TypeScript] Found 0 errors. Watching for file changes.
+2024-01-09 01:31:07 LOG INFO: 
+2024-01-09 01:31:07 LOG INFO: [TypeScript] Found 0 errors. Watching for file changes.
+2024-01-09 01:31:09 LOG INFO: 
+2024-01-09 01:31:09 LOG INFO: [TypeScript] Found 0 errors. Watching for file changes.
+2024-01-09 01:31:13 LOG INFO: 
+2024-01-09 01:31:13 LOG INFO: [TypeScript] Found 0 errors. Watching for file changes.
+2024-01-09 01:31:13 LOG INFO: 
+2024-01-09 01:31:13 LOG INFO: [TypeScript] Found 0 errors. Watching for file changes.
+2024-01-09 01:31:35 LOG INFO: 
+2024-01-09 01:31:35 LOG INFO: [TypeScript] Found 0 errors. Watching for file changes.
+2024-01-09 01:31:36 LOG INFO: 
+2024-01-09 01:31:36 LOG INFO: [TypeScript] Found 0 errors. Watching for file changes.
