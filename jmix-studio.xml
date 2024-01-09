@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JmixDataStoreSettingsManager">
+    <moduleSettings>
+      <entry key="com.company.untitled.main">
+        <ModuleSettings>
+          <option name="dataStoreOptionsV2">
+            <map>
+              <entry key="main">
+                <value>
+                  <DataStoreSettingsV2 />
+                </value>
+              </entry>
+            </map>
+          </option>
+        </ModuleSettings>
+      </entry>
+      <entry key="untitled.main">
+        <ModuleSettings>
+          <option name="dataStoreOptionsV2">
+            <map>
+              <entry key="main">
+                <value>
+                  <DataStoreSettingsV2 />
+                </value>
+              </entry>
+            </map>
+          </option>
+        </ModuleSettings>
+      </entry>
+    </moduleSettings>
+  </component>
+  <component name="JmixLiquibaseChangesConfig">
+    <exclude-change idName="FK_CLASS_MANAGER_ON_DEPAMENT_CODE" tagName="dropIndex" />
+    <exclude-change idName="FK_STUDENT_ON_CLASS_COD" tagName="dropIndex" />
+    <exclude-change idName="IDX_CLASS_MANAGER_UNQ" tagName="dropIndex" />
+  </component>
+</project>
